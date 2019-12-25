@@ -19,7 +19,7 @@ int main(){
 		printf("Nhap vao canh c = ");
 		scanf("%lf",&c);
 	
-	}while (a==0||b==0||c ==0||(a+b)<=c||(a+c)<=b||(c+b)<=a);
+	}while (a<=0||b<=0||c <=0||(a+b)<=c||(a+c)<=b||(c+b)<=a);
 	printf(" chu vi tam giac la: %lf\n",tinhchuvitamgiac(a,b,c));
 	printf(" dien tich tam giac la : %lf",tinhdientichtamgiac(a,b,c));
 	
